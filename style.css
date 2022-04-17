@@ -1,3 +1,5 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 :root{
 /* ### Primary */
@@ -16,18 +18,44 @@ body{
     margin:0;
     padding:0;   
 }
+.h1{
+    font-family: 'Poppins', sans-serif;
+
+}
+
 .bg-color{
-    background:url(./images/bg-hero-desktop.svg)
+    background:url(./images/bg-hero-desktop.svg);
 }
 .hero-btn{
     background-color: var(--Pink);
     color:#fff;
     font-size: 16px;
 }
+.hero-btn:hover{
+    color:var(--Very-Pale-Cyan);
+    font-size: 17px;
+    box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+    
+}
+
+
 .nav-btn{
     background-color:#fff;
     color:var(--Very-Dark-Cyan);
     box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
 -moz-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+}
+.nav-btn:hover{
+    color:var(--Very-Dark-Cyan);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media screen and (max-width:800px)  {
+    .logo{
+        width:40%;
+    }
 }
