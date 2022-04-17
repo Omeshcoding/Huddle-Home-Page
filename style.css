@@ -1,0 +1,33 @@
+
+:root{
+/* ### Primary */
+
+--Pink: hsl(322, 100%, 66%);
+
+/* ### Neutral */
+
+--Very-Pale-Cyan: hsl(193, 100%, 96%);
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+
+body{
+    margin:0;
+    padding:0;   
+}
+.bg-color{
+    background:url(./images/bg-hero-desktop.svg)
+}
+.hero-btn{
+    background-color: var(--Pink);
+    color:#fff;
+    font-size: 16px;
+}
+.nav-btn{
+    background-color:#fff;
+    color:var(--Very-Dark-Cyan);
+    box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
+}
