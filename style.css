@@ -54,6 +54,14 @@ body{
     font-size: 17px;
 }
 
+/* Cards */
+.card-shadow{
+    box-shadow: -1px -2px 17px 1px rgba(0,0,0,0.37);
+-webkit-box-shadow: -1px -2px 17px 1px rgba(0,0,0,0.37);
+-moz-box-shadow: -1px -2px 17px 1px rgba(0,0,0,0.37);
+}
+
+
 @media screen and (max-width:800px)  {
     .logo{
         width:40%;
