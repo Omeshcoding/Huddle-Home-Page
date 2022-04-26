@@ -65,13 +65,47 @@ body{
     color: var(--Grayish-Blue);
 }
 
+/* floating card */
+.floating-card{
+    top:40px;
+    width:60%;
+}
+.floating-card-btn{
+    color:#fff;
+     font-family: 'Poppins', sans-serif;
+     width:40%;
+    }
 
+.floating-card-btn:hover{
+    color:#fff;
+    font-weight:550;
+    box-shadow: -1px -2px 17px 1px rgba(0,0,0,0.37);
+    -webkit-box-shadow: -1px -2px 17px 1px rgba(0,0,0,0.37);
+    -moz-box-shadow: -1px -2px 17px 1px rgba(0,0,0,0.37);
+    
+}
 /* footer */
-/* .footer{
+.footer{
     margin-top:250px;
-} */
-@media screen and (max-width:800px)  {
+}
+.footer-logo{
+    width:15%;
+    margin-top:50px;
+    color:#fff;
+}
+@media screen and (max-width:1000px)  {
     .logo{
         width:40%;
+    }
+    .floating-card{
+        top:10px;
+        width:90%;
+    }
+    .floating-card-btn{
+        width:70%;
+    }
+    .footer-logo{
+        width:25%;
+        
     }
 }
