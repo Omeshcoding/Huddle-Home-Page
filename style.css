@@ -18,14 +18,36 @@ body{
     margin:0;
     padding:0;   
 }
+
+/* Utility */
 .h1{
     font-family: 'Poppins', sans-serif;
 
+}
+.rounded-border-radius{
+    border-radius: 10px;
 }
 
 .bg-color{
     background:url(./images/bg-hero-desktop.svg);
 }
+
+/* Nav bar */
+.nav-btn {
+    background-color: #fff;
+    color: var(--Very-Dark-Cyan);
+    }
+
+.nav-btn:hover {
+    color: var(--Very-Dark-Cyan);
+    font-size: 17px;
+    box-shadow: -6px 3px 36px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -6px 3px 36px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -6px 3px 36px -7px rgba(0, 0, 0, 0.75);
+    
+}
+
+/* hero-section */
 .hero-btn{
     background-color: var(--Pink);
     color:#fff;
@@ -41,18 +63,6 @@ body{
 }
 
 
-.nav-btn{
-    background-color:#fff;
-    color:var(--Very-Dark-Cyan);
-    box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
--webkit-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
--moz-box-shadow: -6px 3px 36px -7px rgba(0,0,0,0.75);
-}
-.nav-btn:hover{
-    color:var(--Very-Dark-Cyan);
-    font-weight: 500;
-    font-size: 17px;
-}
 
 /* Cards */
 .card-shadow{
@@ -73,7 +83,9 @@ body{
 .floating-card-btn{
     color:#fff;
      font-family: 'Poppins', sans-serif;
-     width:40%;
+     /* width:40%; */
+     background-color:var(--Pink);
+
     }
 
 .floating-card-btn:hover{
@@ -93,6 +105,59 @@ body{
     margin-top:50px;
     color:#fff;
 }
+.row a{
+    text-decoration:none;
+    margin-bottom:5px;
+}
+/*btn animation  */
+.hover-underline-animation {
+    /* display: inline-block; */
+    position: relative;
+    color: #000;
+    font-family:'Poppins',
+    sans-serif;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/* Icon section */
+
+.circle{
+    padding: 0.8rem .8rem;
+    border: #fff solid thin;
+    border-radius: 50%;
+    /* margin-left:.4rem; */
+}
+
+.circle-facebook{
+    padding: 0.8rem 1rem;
+    border: #fff solid thin;
+    border-radius: 50%;
+    margin-left:.2rem;
+}
+.circle:hover{
+    color:var(--Pink);
+
+}
+.icons{
+    color: green;
+}
 @media screen and (max-width:1000px)  {
     .logo{
         width:40%;
@@ -102,7 +167,7 @@ body{
         width:90%;
     }
     .floating-card-btn{
-        width:70%;
+        /* width:70%; */
     }
     .footer-logo{
         width:25%;
