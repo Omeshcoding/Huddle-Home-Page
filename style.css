@@ -112,7 +112,7 @@ body{
     margin-bottom:5px;
 }
 .row a:hover{
-    text-decoration:underline #000 ;
+    text-decoration:underline var(--Very-Dark-Cyan) ;
     color:var(--Pink);
     
 }
@@ -121,9 +121,9 @@ body{
 
 .circle{
     padding: 0.8rem .8rem;
-    border: #000 solid thin;
+    border: var(--Very-Dark-Cyan) solid thin;
     border-radius: 50%;
-    color: #000;
+    color: var(--Very-Dark-Cyan);
     /* margin-left:.4rem; */
 }
 .circle:hover{
@@ -132,8 +132,8 @@ body{
     
 }
 .circle-facebook{
-    color: #000;
-    border: #000 solid thin;
+    color: var(--Very-Dark-Cyan);
+    border: var(--Very-Dark-Cyan) solid thin;
     padding: 0.8rem 1rem;
     border-radius: 50%;
     margin-left:.2rem;
@@ -141,8 +141,6 @@ body{
 .circle-facebook:hover{
     border: var(--Pink) solid thin;
     color:var(--Pink);  
-}
-.circle:hover{
 }
 
 @media screen and (max-width:1000px)  {
