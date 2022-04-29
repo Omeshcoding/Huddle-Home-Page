@@ -99,6 +99,8 @@ body{
 /* footer */
 .footer{
     margin-top:250px;
+    background-color:var(--Very-Pale-Cyan);
+    font-family: 'Poppins',sans-serif;
 }
 .footer-logo{
     width:15%;
@@ -106,58 +108,43 @@ body{
     color:#fff;
 }
 .row a{
-    text-decoration:none;
+   text-decoration: none;
     margin-bottom:5px;
 }
-/*btn animation  */
-.hover-underline-animation {
-    /* display: inline-block; */
-    position: relative;
-    color: #000;
-    font-family:'Poppins',
-    sans-serif;
-  }
-  
-  .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+.row a:hover{
+    text-decoration:underline #000 ;
+    color:var(--Pink);
+    
+}
 
 /* Icon section */
 
 .circle{
     padding: 0.8rem .8rem;
-    border: #fff solid thin;
+    border: #000 solid thin;
     border-radius: 50%;
+    color: #000;
     /* margin-left:.4rem; */
 }
-
+.circle:hover{
+    border: var(--Pink) solid thin;
+    color:var(--Pink);
+    
+}
 .circle-facebook{
+    color: #000;
+    border: #000 solid thin;
     padding: 0.8rem 1rem;
-    border: #fff solid thin;
     border-radius: 50%;
     margin-left:.2rem;
 }
+.circle-facebook:hover{
+    border: var(--Pink) solid thin;
+    color:var(--Pink);  
+}
 .circle:hover{
-    color:var(--Pink);
+}
 
-}
-.icons{
-    color: green;
-}
 @media screen and (max-width:1000px)  {
     .logo{
         width:40%;
