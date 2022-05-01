@@ -30,8 +30,12 @@ body{
 
 .bg-color{
     background:url(./images/bg-hero-desktop.svg);
+    margin-bottom: 200px;
 }
 
+.bd-highlight{
+   margin-bottom:60px;
+}
 /* Nav bar */
 .nav-btn {
     background-color: #fff;
@@ -99,7 +103,7 @@ body{
 /* footer */
 .footer{
     margin-top:250px;
-    background-color:var(--Very-Pale-Cyan);
+    background-color:rgb(188, 233, 241);
     font-family: 'Poppins',sans-serif;
 }
 .footer-logo{
